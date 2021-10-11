@@ -1,6 +1,6 @@
 class HashTable {
     constructor(size) {
-        this.buckets = []; // each bucket/index holds an array of key, value pairs 
+        this.buckets = [size]; // each bucket/index holds an array of key, value pairs 
         this.size = size; 
     }
     calculateHash(key) {
